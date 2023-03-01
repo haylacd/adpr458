@@ -3,7 +3,7 @@
 body{
     margin: 0 10%;
     font-family: Poppins;
-    weight: 400px;
+    font-weight: 400;
   }
 header{
     background-color:#9abcf8;
