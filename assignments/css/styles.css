@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+*{
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+
 body{
-    margin: 0 10%;
+    margin: 0;
     font-family: Poppins;
     font-weight: 400;
     background-image: url("../images/groovepaper.png")
   }
-
-.container{
-  background-color: white;
-}
 
 header{
     background-color:#9abcf8;
@@ -37,3 +39,27 @@ max-width: 100%;
 height: auto;  
 border-radius: 50%;
 }  
+
+/* Layout */
+
+.container{
+  background-color: white;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns:repeat(12, 1fr);
+  margin: 0 auto;
+  width: min(95%, 75rem);
+}
+.container > * {
+  grid-column: span 12;
+}
+
+/* Larger Breakpoint */
+@media screen and (min-width: 40rem) {
+  .col-span-8{
+    grid-column: span 8;
+  }
+  .col-span-4{
+    grid-column: span 4;
+  }
+}
