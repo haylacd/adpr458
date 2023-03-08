@@ -4,7 +4,13 @@ body{
     margin: 0 10%;
     font-family: Poppins;
     font-weight: 400;
+    background-image: url("../images/groovepaper.png")
   }
+
+.container{
+  background-color: white;
+}
+
 header{
     background-color:#9abcf8;
     color: white;
