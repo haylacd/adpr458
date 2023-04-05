@@ -29,15 +29,15 @@ h3{
     font-size: 1.25rem;
 }
 
+
 .circle{
     border-radius: 50%;
     border: 5-x solid #9abcf8;
 }
 
-img {  
+img{  
 max-width: 100%;  
 height: auto;  
-border-radius: 50%;
 }  
 
 a:link, a:visited{
@@ -66,15 +66,6 @@ a:hover{
   grid-column: span 12;
 }
 
-/* Larger Breakpoint */
-@media screen and (min-width: 40rem) {
-  .col-span-8{
-    grid-column: span 8;
-  }
-  .col-span-4{
-    grid-column: span 4;
-  }
-}
 
 /**** Nav Using Flexbox ***/
 nav{
@@ -127,4 +118,40 @@ nav a:hover{
 }
 .button:hover{
   background-color: #6e8fc7;
+}
+
+.card{
+  text-align: center;
+  margin: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+}
+
+.card-title{
+  margin: 0.75rem 0 0 0;
+  padding: 0 2rem 0.5rem;
+}
+
+.card-text{
+  margin: 0.5rem 0 1rem 0;
+  padding: 0 2rem 0.5rem;
+}
+
+/* Larger Breakpoint */
+@media screen and (min-width: 40rem) {
+  .col-span-8{
+    grid-column: span 8;
+  }
+  .col-span-4{
+    grid-column: span 4;
+  }
+
+  .work-section{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;  
+  }
+  .card{
+    flex-basis: 27.5%;
+  }
 }
