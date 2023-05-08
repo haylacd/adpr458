@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+img{
+  max-width: 100%;
+}
+
+img-intro{
+  max-width: 100%;
+  justify-content: center;
+  padding: 70%;
+}
+
+.logo{
+  max-width: 97px;
+}
+
+.nav {
+  position: sticky;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-color: #80B8B3;
+  color: white;
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-left: auto;
+}
+
+.nav_bar {
+    position: sticky;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #80B8B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+  }
+
+  .pill-button {
+    background-color: rgb(245, 125, 178);
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .pill-button-intro {
+    background-color: rgb(245, 125, 178);
+    color: white; 
+    border: none; 
+    padding: 2%;
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+    justify-content: center;
+    font-family: sans-serif, 'Poppins';
+  }
+  
+  .pill-button:hover {
+    background-color: #3e8e41; 
+  }
+
+  .intro {
+    background-color: #80B8B3;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .h2-intro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding-top: 15%;
+  }
+
+  .concepts {
+    background-color: #fff;
+    color: black;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .what {
+    background-color: #fff;
+    color: black;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  } 
+
+  .h2-concept {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    justify-content: center;
+    padding-top: 15%;
+  }
+
+  .center{
+    align-content: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: .5%;
+  }
+
+  .img-lesson1{
+    max-width: 100%;
+    margin-left: 20%;
+  }
+
+  .lesson{
+    border-radius: 25px;
+    border-style: solid;
+    border-color: gray;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .lesson-text{
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    padding: 10%;
+  }
+
+  .lesson-text-gray{
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    color: gray;
+  }
+
+  .lesson-img{
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    padding-left: 16%;
+  }
+
+
+/* Media Queries for larger screens than 768px */
+@media screen and (min-width: 48rem) {
+
+  .col-span-2 {
+      grid-column: span 2;
+  }
+  .col-span-3 {
+      grid-column: span 3;
+  }
+  .col-span-4 {
+      grid-column: span 4;
+  }
+  .col-span-5 {
+      grid-column: span 5;
+  }
+  .col-span-6 {
+      grid-column: span 6;
+  }
+  .col-span-7 {
+      grid-column: span 7;
+  }
+  .col-span-8 {
+      grid-column: span 8;
+  }
+  .col-span-9 {
+      grid-column: span 9;
+  }
+  .col-span-10 {
+      grid-column: span 10;
+  }
+}
+
+/* Closes the media query *//* Closes the media query */

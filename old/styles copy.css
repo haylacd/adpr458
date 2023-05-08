@@ -1,61 +1,29 @@
 
-.nav_bar {
-    backdrop-filter: url(filters.svg#filter) blur(12px) saturate(150%);
-    position: sticky;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    height: 80px;
-    background-color: #0000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    width: 100%;
-  }
 
-  .pill-button {
-    background-color: rgb(245, 125, 178);
-    color: white; 
-    border: none; 
-    padding: 10px 20px; 
-    border-radius: 50px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    transition: background-color 0.3s ease; 
-  }
-  
-  .pill-button:hover {
-    background-color: #3e8e41; 
-  }
-
-
-
-
-
-/** Main Page (Not responsive) **/
 .home-child {
   position: flex;
   background-color: var(--color-gainsboro);
   width: 94.5rem;
   height: 11.25rem;
 }
-
 .daily-vocab-child {
-  position: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: var(--br-lgi);
   background-color: var(--color-lightcyan);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  width: 30.5rem;
+  height: 13.19rem;
 }
-
 .cat,
 .daily-vocab1 {
-  position: flex;
+  position: absolute;
   top: 2.25rem;
   left: 4.21rem;
   display: inline-block;
-  color: white;
-  font-size: var(--font-size-21xl);
-
+  width: 22.73rem;
+  height: 4.44rem;
 }
 .cat {
   top: 7.5rem;
