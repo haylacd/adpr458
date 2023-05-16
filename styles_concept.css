@@ -33,10 +33,17 @@ img{
   max-width: 100%;
 }
 
-img-intro{
+.img-intro{
   max-width: 100%;
   justify-content: center;
-  padding: 70%;
+}
+
+.img-intro2{
+  max-width: 70%;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  display: block;
 }
 
 .logo{
@@ -53,7 +60,31 @@ img-intro{
   align-items: center;
   float: right;
   margin-left: auto;
-}
+  padding: 10px 20px;
+  }
+  
+  .nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .nav a:hover {
+  text-decoration: underline;
+  }
+  
+  .nav_logo {
+  margin-right: auto;
+  }
+  
+  .nav_logo img {
+  height: 30px;
+  }
+  
+  .nav_menu {
+  display: flex;
+  align-items: center;
+  }
 
 .nav_bar {
     position: sticky;
@@ -100,6 +131,7 @@ img-intro{
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    align-content: center;
   }
 
   .h2-intro {
@@ -110,20 +142,40 @@ img-intro{
     padding-top: 15%;
   }
 
-  .concepts {
-    background-color: #fff;
-    color: black;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-  }
+
+.concepts {
+  background-color: #fff;
+  color: black;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.flags{
+  align-items: center;
+  grid-template-columns: repeat(10, 1fr);
+  display: flex;
+}
+
+.concepts__item {
+  grid-column: span 4;
+  grid-row: span 1;
+  padding: 20px;
+}
+
 
   .what {
     background-color: #fff;
     color: black;
     overflow: hidden;
-    display: grid;
     grid-template-columns: repeat(12, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   } 
 
   .h2-concept {
